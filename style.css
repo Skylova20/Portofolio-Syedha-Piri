@@ -1,13 +1,35 @@
+/* Style umum */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
+/* Bagian header */
 header {
-    text-align: center;
     background: #0077b6;
-    color: blanchedalmond;
+    color: white;
     padding: 20px;
+    text-align: center;
+}
+
+/* Profil foto + teks */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile img {
+    width: 350px;   /* lebih besar lagi */
+    height: auto;
+    border: 6px solid white;
+}
+
+.profile-text {
+    max-width: 500px;
+    text-align: left;
 }
